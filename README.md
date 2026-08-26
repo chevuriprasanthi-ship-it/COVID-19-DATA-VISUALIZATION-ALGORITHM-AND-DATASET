@@ -1,55 +1,109 @@
-# COVID-19 Data Visualization
+# COVID-19 Data Visualization Dashboard
 
 ## 📌 Project Overview
 
-The **COVID-19 Data Visualization** project is a Data Analytics and Business Intelligence project developed under the **Computer Science and Engineering (Artificial Intelligence and Machine Learning)** domain.
+The **COVID-19 Data Visualization Dashboard** is a data analytics and visualization project developed to transform raw COVID-19 dataset records into meaningful and easy-to-understand visual insights.
 
-The main objective of this project is to transform raw COVID-19 data into meaningful visual insights using data cleaning, data transformation, descriptive analytics, and interactive data visualization techniques.
+The project uses **Python, Pandas, Plotly, and Streamlit** to load, clean, process, analyze, and visualize COVID-19 data. The dashboard provides interactive KPI cards, time-based trend analysis, location-based comparisons, filtering options, processed-data preview, and CSV download functionality.
 
-The project helps users understand COVID-19 trends, compare affected regions, analyze important indicators, and explore the data through an interactive dashboard.
+The project is developed under the **Computer Science and Engineering – Artificial Intelligence and Machine Learning (CSE-AIML)** domain.
+
+The main purpose of this project is to demonstrate how raw public-health data can be converted into an interactive analytical dashboard using a structured data-processing pipeline.
 
 ---
 
 ## 🎯 Objectives
 
-- Collect and analyze COVID-19 data.
-- Clean and preprocess the raw dataset.
-- Handle missing values and duplicate records.
-- Transform the dataset into an analysis-ready format.
+The main objectives of this project are:
+
+- Load COVID-19 data from a CSV dataset.
+- Validate and understand the structure of the dataset.
+- Standardize dataset column names.
+- Handle missing or invalid values.
+- Remove duplicate records.
+- Convert date and numerical fields into appropriate formats.
+- Generate useful date-based attributes such as year and month.
+- Calculate important COVID-19 Key Performance Indicators (KPIs).
 - Analyze COVID-19 trends over time.
-- Compare COVID-19 statistics across regions.
-- Calculate important Key Performance Indicators (KPIs).
-- Create interactive charts and dashboards.
-- Present complex COVID-19 data in an easy-to-understand visual format.
-- Provide a foundation for future AIML-based forecasting and anomaly detection.
+- Compare COVID-19 cases across different locations.
+- Provide interactive filtering using Streamlit.
+- Visualize COVID-19 trends using Plotly.
+- Display processed data in tabular form.
+- Allow users to download the cleaned dataset.
+- Provide a foundation for future Machine Learning and predictive analytics.
 
 ---
 
-## 🧠 Algorithm
+## 🧩 Problem Statement
 
-The project follows the following data analytics pipeline:
+COVID-19 datasets can contain a large number of records covering different dates and locations. Raw tabular data can be difficult to understand directly and may require repeated manual calculations.
+
+Some common challenges include:
+
+- Difficulty understanding large raw datasets.
+- Difficulty identifying trends over time.
+- Difficulty comparing COVID-19 cases between locations.
+- Missing or invalid values.
+- Duplicate records.
+- Inconsistent column names.
+- Numerical values stored in incorrect formats.
+- Lack of interactive filtering.
+- Difficulty obtaining quick summary statistics.
+
+This project solves these problems by creating a structured data-processing pipeline and an interactive visualization dashboard.
+
+---
+
+## 💡 Project Motivation
+
+The project is motivated by the importance of converting raw data into meaningful information.
+
+Instead of manually inspecting hundreds or thousands of CSV records, users can interact with a dashboard and quickly understand:
+
+- Total confirmed cases.
+- Total deaths.
+- Total recoveries.
+- Active cases.
+- Case trends over time.
+- Location-wise case distribution.
+- Processed dataset information.
+
+The project also demonstrates practical applications of concepts learned in:
+
+- Data Analytics
+- Data Visualization
+- Python Programming
+- Artificial Intelligence
+- Machine Learning
+- Exploratory Data Analysis
+
+---
+
+# 🔄 Project Workflow
+
+The complete project workflow is:
 
 ```text
-COVID-19 Raw Dataset
-        ↓
-Data Collection
+COVID-19 CSV Dataset
         ↓
 Data Loading
         ↓
-Data Understanding
-        ↓
 Data Validation
+        ↓
+Column Standardization
         ↓
 Data Cleaning
         ↓
 Data Transformation
         ↓
-Data Analysis
+Filtering
         ↓
 KPI Calculation
         ↓
 Data Visualization
         ↓
-Interactive Dashboard
+Interactive Streamlit Dashboard
         ↓
-Trends & Analytical Insights
+Business / Analytical Insights
+        ↓
+Processed Dataset Download
